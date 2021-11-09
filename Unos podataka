@@ -1,0 +1,10 @@
+import pandas as pd
+data_assesments=pd.read_csv(r'/Users/marko/Downloads/anonymisedData\assessments.csv')
+data_courses=pd.read_csv(r'/Users/marko/Downloads/anonymisedData\courses.csv')
+data_stud_assesment=pd.read_csv(r'/Users/marko/Downloads/anonymisedData\studentAssessments.csv')
+data_info=pd.read_csv(r'/Users/marko/Downloads/anonymisedData\studentInfo.csv')
+data_registration=pd.read_csv(r'/Users/marko/Downloads/anonymisedData\studentRegistration.csv')
+data_student_vle=pd.read_csv(r'/Users/marko/Downloads/anonymisedData\studentVle.csv')
+data_vle=pd.read_csv(r'/Users/marko/Downloads/anonymisedData\vle.csv')
+print(data_info)
+
